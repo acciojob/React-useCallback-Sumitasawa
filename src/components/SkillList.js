@@ -4,7 +4,7 @@ const SkillList = React.memo(({ skills, onDelete }) => {
   console.log("SkillList rendered");
 
   return (
-    <ul>
+    <ul id="skill-list">
       {skills.map((skill, idx) => (
         <li
           key={idx}
